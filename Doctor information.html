@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Doctor Information</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <img src="HMS.jpg" class="logo">
+                <div id='Login-form'class='login-page'>
+                    <div class="form-box">
+                        <div class='button-box'>
+                            <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                            <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+                        </div>
+                        <form id='login' class="input-group-login">
+                            <input type="email"class='input-field'placeholder='Email id'required>
+                            <input type="password"class='input-field'placeholder='Enter Password'required>
+                            <input type="checkbox"class='check-box'><span>Remember Password</span>
+                            <button type="submit"class='submit-btn'>Log In</button>
+                        </form>
+                        <form id='register' class="input-group-register">
+                            <input type="text"class='input-field'placeholder='First name'required>
+                            <input type="text"class='input-field'placeholder='Last Name'required>
+                            <input type="email"class='input-field'placeholder='Email id'required>
+                            <input type="address"class='input-field'placeholder='Address'required><br><br>
+                            <label for="phone">Enter a phone number:</label><br><br>
+                            <input type="tel" id="phone" name="phone" placeholder="0123456789" pattern="[0-9]{5}[0-9]{5}" required><br><br>
+                            <label for="phone">Enter Employee ID:</label><br><br>
+                            <input type="tel" id="phone" name="phone" placeholder="0123456789" pattern="[0-9]{9}" required><br><br>
+                            <input type="text"class='input-field'placeholder='Specialization'required>
+                            <input type="text"class='input-field'placeholder='Degrees'required>
+                            <input type="password"class='input-field'placeholder='Enter Password'required>
+                            <input type="password"class='input-field'placeholder='Confirm Password'required>
+                            <input type="checkbox"class='check-box'><span>I agree to the terms and conditions</span>
+                            <button type="submit"class='submit-btn'>Register</button>
+                        </form>
+                    </div>
+                </div>
+    </body>
+</html>
+
+   
